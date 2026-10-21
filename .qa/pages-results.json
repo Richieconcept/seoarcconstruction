@@ -1,0 +1,68 @@
+{
+  "pages": [
+    {
+      "page": "about.html",
+      "widths": 6,
+      "images": "loaded",
+      "labels": true
+    },
+    {
+      "page": "service.html",
+      "widths": 6,
+      "images": "loaded",
+      "labels": true
+    },
+    {
+      "page": "projects.html",
+      "widths": 6,
+      "images": "loaded",
+      "labels": true
+    },
+    {
+      "page": "corporate.html",
+      "widths": 6,
+      "images": "loaded",
+      "labels": true
+    },
+    {
+      "page": "contact.html",
+      "widths": 6,
+      "images": "loaded",
+      "labels": true
+    },
+    {
+      "page": "appointment.html",
+      "widths": 6,
+      "images": "loaded",
+      "labels": true
+    },
+    {
+      "page": "feature.html",
+      "widths": 6,
+      "images": "loaded",
+      "labels": true
+    },
+    {
+      "page": "team.html",
+      "widths": 6,
+      "images": "loaded",
+      "labels": true
+    },
+    {
+      "page": "testimonial.html",
+      "widths": 6,
+      "images": "loaded",
+      "labels": true
+    },
+    {
+      "page": "404.html",
+      "widths": 6,
+      "images": "loaded",
+      "labels": true
+    }
+  ],
+  "form": "passed",
+  "filters": "passed",
+  "navigation": "passed",
+  "errors": []
+}

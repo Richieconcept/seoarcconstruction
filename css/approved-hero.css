@@ -1,0 +1,51 @@
+/* The supplied, flattened artwork is kept intact. Desktop links sit on its
+   printed controls; the same semantic copy becomes visible on small screens. */
+.approved-hero-page .approved-hero{min-height:0;background:#06254d;overflow:hidden;isolation:auto}
+.approved-artwork{position:relative;width:100%}
+.approved-image{display:block;width:100%;height:auto;max-width:none;aspect-ratio:1672/941}
+.approved-description{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.approved-action{position:absolute;top:65.57%;height:6.49%;border-radius:999px;display:flex;align-items:center;justify-content:center;gap:12px;color:transparent;font-weight:700;transition:box-shadow .25s,background .25s}
+.approved-action .icon{visibility:hidden}
+.approved-services{left:6.28%;width:13.1%}
+.approved-contact{left:20.63%;width:13.1%}
+.approved-action:hover{background:#ffffff13;box-shadow:0 3px 18px #031c3026}
+.approved-action:focus-visible{outline:3px solid white;outline-offset:4px;box-shadow:0 0 0 7px #0755ad}
+@media(min-width:981px){
+  .approved-hero-page .site-header{position:absolute;left:5.68%;top:1.2vw;width:88.64%;border-radius:1.4vw;background:transparent;box-shadow:none}
+  .approved-hero-page .site-header:not(.scrolled) .header-inner{position:relative;min-height:5.61vw;width:100%;gap:0}
+  .approved-hero-page .site-header:not(.scrolled) .brand{position:absolute;left:3.6%;top:0;width:15.1%;height:100%}
+  .approved-hero-page .site-header:not(.scrolled) .brand img{visibility:hidden}
+  .approved-hero-page .site-header:not(.scrolled) .site-nav{display:contents}
+  .approved-hero-page .site-header:not(.scrolled) .nav-link{position:absolute;top:0;height:100%;display:flex;align-items:center;justify-content:center;color:transparent;padding:0;font-size:1vw}
+  .approved-hero-page .site-header:not(.scrolled) .nav-link::after{display:none}
+  .approved-hero-page .site-header:not(.scrolled) .nav-link:nth-of-type(1){left:28.8%;width:5%}
+  .approved-hero-page .site-header:not(.scrolled) .nav-link:nth-of-type(2){left:34.5%;width:6.3%}
+  .approved-hero-page .site-header:not(.scrolled) .nav-link:nth-of-type(3){left:41.8%;width:7.5%}
+  .approved-hero-page .site-header:not(.scrolled) .nav-link:nth-of-type(4){left:50.7%;width:7.7%}
+  .approved-hero-page .site-header:not(.scrolled) .nav-link:nth-of-type(5){left:59.8%;width:6.4%}
+  .approved-hero-page .site-header:not(.scrolled) .nav-link:nth-of-type(6){left:67.4%;width:7.4%}
+  .approved-hero-page .site-header:not(.scrolled) .nav-quote{position:absolute;left:84.1%;top:18%;width:12.4%;height:62%;min-height:0;padding:0;margin:0;color:transparent;background:transparent;box-shadow:none;font-size:1vw;transform:none}
+  .approved-hero-page .site-header:not(.scrolled) .nav-quote .icon{visibility:hidden}
+  .approved-hero-page .site-header:not(.scrolled) a:hover{box-shadow:inset 0 -2px #10c820}
+  .approved-hero-page .site-header.scrolled{position:fixed;top:12px;background:#fffffff5;backdrop-filter:blur(12px);box-shadow:0 5px 25px #06254d20;border-radius:16px}
+  .approved-hero-page .site-header.scrolled .header-inner{width:94%}
+}
+@media(max-width:980px){
+  /* Remove only the printed desktop navigation band; do not crop the scene.
+     The existing accessible mobile header supplies usable navigation. */
+  .approved-artwork{padding-top:0}
+  .approved-image{margin-top:-7.1%;margin-bottom:0}
+  .approved-description{position:static;width:auto;height:auto;margin:0;padding:30px 6% 0;overflow:visible;clip-path:none;white-space:normal;background:#06254d}
+  .approved-hero .approved-description h1{font-size:clamp(34px,5.1vw,46px);line-height:1.15;max-width:650px;margin:0 0 18px;letter-spacing:-.035em}
+  .approved-description h1 span{color:#45e319}
+  .approved-description>p:not(.eyebrow){font-size:15px;line-height:1.7;color:#edf3ff;max-width:620px}
+  .approved-description ul{display:flex;flex-wrap:wrap;gap:8px 25px;margin:24px 0 0;padding:0;list-style:none;color:#dce8f5;font-size:12px}
+  .approved-actions{display:flex;flex-wrap:wrap;gap:14px;padding:25px 6% 36px;background:#06254d}
+  .approved-action{position:static;height:auto;width:auto;min-height:48px;padding:12px 25px;color:white;font-size:13px;line-height:1.4}
+  .approved-services{background:#078614;border:1px solid #078614}
+  .approved-contact{border:1px solid #ffffffa6;background:transparent}
+  .approved-action .icon{visibility:visible;transition:transform .25s}
+  .approved-action:hover .icon{transform:translateX(4px)}
+  .approved-services:hover{background:#066b10}
+}
+@media(prefers-reduced-motion:reduce){.approved-hero-page .approved-action,.approved-action .icon{transition:none}}
